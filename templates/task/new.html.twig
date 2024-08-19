@@ -1,0 +1,10 @@
+{# templates/task/new.html.twig #}
+
+<h1>Create a New Task</h1>
+
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+    <button class="btn">Saveyyy</button>
+{{ form_end(form) }}
+
+<a href="{{ path('task_index') }}">Back to task list</a>
